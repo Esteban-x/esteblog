@@ -23,9 +23,9 @@ export const Icons = {
           width='219.768'
           height='269.2'
           filterUnits='userSpaceOnUse'
-          color-interpolation-filters='sRGB'
+          colorInterpolationFilters='sRGB'
         >
-          <feFlood flood-opacity='0' result='BackgroundImageFix' />
+          <feFlood floodOpacity='0' result='BackgroundImageFix' />
           <feColorMatrix
             in='SourceAlpha'
             type='matrix'
@@ -59,8 +59,8 @@ export const Icons = {
           gradientUnits='userSpaceOnUse'
           gradientTransform='translate(196.5 298.5) rotate(-1.4134) scale(344.605 345.854)'
         >
-          <stop stop-color='#008CFF' />
-          <stop offset='1' stop-color='#597AF2' />
+          <stop stopColor='#008CFF' />
+          <stop offset='1' stopColor='#597AF2' />
         </radialGradient>
       </defs>
     </svg>

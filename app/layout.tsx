@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang='en' className='scroll-pt-[3.5rem]'>
       <body
-        className={`min-h-screen bg-background ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`min-h-screen md-px-8 px-6 bg-background ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute='class'
@@ -38,7 +38,7 @@ export default function RootLayout({
         >
           <div className='relative flex min-h-dvh flex-col bg-background'>
             <SiteHeader />
-            <main className='flex-1 '>{children}</main>
+            <main className='flex-1'>{children}</main>
           </div>
         </ThemeProvider>
       </body>

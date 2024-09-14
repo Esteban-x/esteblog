@@ -47,7 +47,7 @@ export const MainNav = () => {
         href='books'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/blog' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/books' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
         Livres
