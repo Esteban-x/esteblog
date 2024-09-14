@@ -14,7 +14,7 @@ export default function Callout({
   return (
     <div
       className={cn(
-        ' items-start rounded-md border border-l-4 py-0 px-5 w-full dark:max-w-none',
+        ' items-start rounded-xl border dark:bg-[#181818]/15  bg-neutral-100/10 dark:text-white/90 py-0 px-5 w-full dark:max-w-none',
         {
           'border-red-900 bg-red-50 dark:prose': type === 'danger',
           'border-yellow-900 bg-yellow-50 dark:prose': type === 'warning',
@@ -22,7 +22,7 @@ export default function Callout({
       )}
       {...props}
     >
-      <div className='main-content break-words [word-spacing:3px] text-md leading-relaxed tracking-wide md:text-xl'>
+      <div className='main-content break-words [word-spacing:3px] text-md leading-loose tracking-wide md:text-xl'>
         {children}
       </div>
     </div>
