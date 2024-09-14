@@ -5,8 +5,8 @@
 @layer base {
   :root {
     ::selection {
-      background-color: #0000000e;
-      color: rgb(0, 0, 0);
+      background-color: #5a97ff;
+      color: rgb(255, 255, 255);
     }
   }
   :root {
@@ -36,12 +36,7 @@
     --chart-5: 27 87% 67%;
     --radius: 0.5rem;
   }
-  .dark {
-    ::selection {
-      background-color: #ffffff1c; /* Couleur de fond */
-      color: rgb(255, 255, 255); /* Couleur du texte */
-    }
-  }
+
   .dark {
     --background: 0 0% 3.9%;
     --foreground: 0 0% 98%;

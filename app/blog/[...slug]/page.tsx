@@ -26,12 +26,12 @@ export default async function PostPage({ params }: PostPageProps) {
     notFound()
   }
   return (
-    <article className='container  flex flex-col py-8 prose dark:prose-invert max-w-screen-2xl px-3 mx-auto'>
-      <h1 className='mb-5 text-center md:text-left md:inline-block justify-center flex font-black text-4xl lg:text-5xl'>
+    <article className='container  flex flex-col py-8 prose dark:prose-invert max-w-screen-2xl px-10 mx-auto'>
+      <h1 className='mb-2 text-center md:text-left md:inline-block justify-center flex font-black text-4xl lg:text-5xl'>
         {post.title}
       </h1>
       {post.description ? (
-        <p className='text-xl break-words mt-0 md:inline-block inline-block text-muted-foreground'>
+        <p className='text-xl break-words mt-0 mb-4 ml-1 md:inline-block flex justify-center text-muted-foreground'>
           {post.description}
         </p>
       ) : null}
