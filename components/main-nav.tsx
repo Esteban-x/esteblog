@@ -9,10 +9,12 @@ import { usePathname } from 'next/navigation'
 export const MainNav = () => {
   const pathname = usePathname()
   return (
-    <nav className='flex items-center space-x-4 lg:space-x-6'>
-      <Link href='/' className='mr-6 flex items-center space-x-2'>
-        <Icons.logo className='w-9 h-9' />
-        <span className='font-bold'>{siteConfig.name}</span>
+    <nav className='items-center mr-4 whitespace-nowrap hidden md:flex space-x-4 lg:space-x-6'>
+      <Link href='/' className='flex space-x-2 items-center'>
+        <Icons.logo className='w-8 h-8' />
+        <span className='hidden lg:inline-block font-bold'>
+          {siteConfig.name}
+        </span>
       </Link>
       <Link
         href='blog'
@@ -57,7 +59,7 @@ export const MainNav = () => {
           pathname === '/films' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
-        Films et Séries
+        Films et séries
       </Link>
       <Link
         href='politic'

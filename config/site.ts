@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: 'Esteblog',
+  name: 'Эsteblog',
   url: 'https://esteblog.com',
   author: 'Esteban-x',
   links: {
