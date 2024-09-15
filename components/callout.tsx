@@ -22,7 +22,7 @@ export default function Callout({
       )}
       {...props}
     >
-      <div className='main-content break-words [word-spacing:3px] text-md leading-loose tracking-wide md:text-xl'>
+      <div className='main-content md:leading-relaxed break-words md:[word-spacing:3px] text-md tracking-wide md:text-xl'>
         {children}
       </div>
     </div>

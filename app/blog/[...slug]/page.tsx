@@ -26,7 +26,7 @@ export default async function PostPage({ params }: PostPageProps) {
     notFound()
   }
   return (
-    <article className='container  flex flex-col py-8 prose dark:prose-invert max-w-screen-2xl md:px-10 mx-auto'>
+    <article className='container flex flex-col py-8 prose dark:prose-invert max-w-screen-2xl md:px-20 mx-auto'>
       <h1 className='mb-2 text-center md:text-left md:inline-block justify-center flex font-black text-4xl lg:text-5xl'>
         {post.title}
       </h1>
