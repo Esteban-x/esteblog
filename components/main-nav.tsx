@@ -17,19 +17,19 @@ export const MainNav = () => {
         </span>
       </Link>
       <Link
-        href='blog'
+        href='/blog'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/blog' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
-        Posts
+        Blog
       </Link>
       <Link
-        href='pics'
+        href='photos'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/pics' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/photos' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
         Photos
@@ -44,37 +44,39 @@ export const MainNav = () => {
         Videos
       </Link>
       <Link
-        href='books'
+        href='livres'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/books' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/livres' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
         Livres
       </Link>
       <Link
-        href='films'
+        href='films-et-series'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/films' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/films-et-series'
+            ? 'text-foreground'
+            : 'text-foreground/60'
         )}
       >
         Films et séries
       </Link>
       <Link
-        href='politic'
+        href='politique'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/politic' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/politique' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
         Politique
       </Link>
       <Link
-        href='history'
+        href='histoire'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
-          pathname === '/history' ? 'text-foreground' : 'text-foreground/60'
+          pathname === '/histoire' ? 'text-foreground' : 'text-foreground/60'
         )}
       >
         Histoire
