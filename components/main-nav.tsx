@@ -26,7 +26,7 @@ export const MainNav = () => {
         Blog
       </Link>
       <Link
-        href='photos'
+        href='/photos'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/photos' ? 'text-foreground' : 'text-foreground/60'
@@ -35,7 +35,7 @@ export const MainNav = () => {
         Photos
       </Link>
       <Link
-        href='videos'
+        href='/videos'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/videos' ? 'text-foreground' : 'text-foreground/60'
@@ -44,7 +44,7 @@ export const MainNav = () => {
         Videos
       </Link>
       <Link
-        href='livres'
+        href='/livres'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/livres' ? 'text-foreground' : 'text-foreground/60'
@@ -53,7 +53,7 @@ export const MainNav = () => {
         Livres
       </Link>
       <Link
-        href='films-et-series'
+        href='/films-et-series'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/films-et-series'
@@ -64,7 +64,7 @@ export const MainNav = () => {
         Films et séries
       </Link>
       <Link
-        href='politique'
+        href='/politique'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/politique' ? 'text-foreground' : 'text-foreground/60'
@@ -73,7 +73,7 @@ export const MainNav = () => {
         Politique
       </Link>
       <Link
-        href='histoire'
+        href='/histoire'
         className={cn(
           'text-sm font-medium transition-colors hover:text-primary',
           pathname === '/histoire' ? 'text-foreground' : 'text-foreground/60'

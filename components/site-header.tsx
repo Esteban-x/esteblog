@@ -9,7 +9,7 @@ import { ToggleTheme } from './toggle-theme'
 
 export default function SiteHeader() {
   return (
-    <header className='sticky z-50 md:px-10 top-0 w-full bg-background/95 backdrop-blur text-foreground supports-[backdrop-filter]:bg-background/60'>
+    <header className='sticky z-50  top-0 w-full bg-background/95 backdrop-blur  text-foreground supports-[backdrop-filter]:bg-background/60 '>
       <div className='container mx-auto flex h-14 max-w-screen-2xl items-center'>
         <MainNav />
         <button

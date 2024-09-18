@@ -7,6 +7,14 @@ if (!process.env.VELITE_STARTED && (isDev || isBuild)) {
 }
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: [
+      'picsum.photos',
+      'fr.web.img3.acsta.net',
+      'external-content.duckduckgo.com',
+    ],
+  },
+}
 
 export default nextConfig
