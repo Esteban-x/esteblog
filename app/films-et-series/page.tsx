@@ -2,8 +2,6 @@
 import { Filters } from '@/components/filter'
 import React from 'react'
 import { films } from '@/data/film'
-import Image from 'next/image'
-import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 import { MovieCard } from '@/components/movie-card'
 
@@ -11,7 +9,7 @@ export default function FilmSeriesPage() {
   const searchParams = useSearchParams()
 
   const selectedType = searchParams.getAll('type')
-  const selectedGenre = searchParams.getAll('genre')
+  const selectedGenre = searchParams.getAll('genres')
   const selectedLangue = searchParams.getAll('langue')
 
   const filteredFilms = films.filter(film => {

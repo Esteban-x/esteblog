@@ -16,7 +16,7 @@ const CustomBreadcrumb = () => {
   const pathnames = pathname.split('/').filter(x => x)
 
   return (
-    <Breadcrumb className='container pl-2 md:inline-block  max-w-screen-2xl pt-5 '>
+    <Breadcrumb className='container pl-1 md:inline-block mx-auto  max-w-screen-2xl pt-5 '>
       <div className=''>
         <BreadcrumbList>
           <React.Fragment>
