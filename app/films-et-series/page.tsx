@@ -40,9 +40,13 @@ export default function FilmSeriesPage() {
         </p>
         <Filters />
         <div className='flex-row flex-wrap gap-5 se:gap-3 mt-6 items-center flex'>
-          {films.map((film, index) => (
-            <MovieCard film={film} key={index} />
-          ))}
+          {filteredFilms.length > 0 ? (
+            filteredFilms.map((film, index) => (
+              <MovieCard film={film} key={index} />
+            ))
+          ) : (
+            <p>Aucun film ou série ne correspond à vos filtres</p>
+          )}
         </div>
       </div>
     </div>
